@@ -1,4 +1,4 @@
 #!/bin/bash
 
 VOICE=$1
-python /python/__init__.py ${VOICE} "$2" "$3"
+echo "$2" | python /python/__init__.py ${VOICE} "$3"
