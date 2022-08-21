@@ -1,5 +1,4 @@
 from tts import textToSpeech, getSpeakers
-import fileinput
 import argparse
 
 speakers = getSpeakers()
